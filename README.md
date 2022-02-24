@@ -4,13 +4,13 @@ Create Feature using following commands
 For training <br><br>
 `cd construct_tensor` <br>
 `./c_feature ../train.xyz 121000 1` <br>
-mv dcnn_feature.txt ../2H_1T.txt
+`mv dcnn_feature.txt ../2H_1T.txt` <br>
 `cd ..` <br>
 
 <br>For testing<br><br>
 `cd construct_tensor` <br>
 `./c_feature ../test.xyz 25000 1` <br>
-mv dcnn_feature.txt ../test_2H_1T.txt
+  mv dcnn_feature.txt ../test_2H_1T.txt` <br>
 `cd ..` <br>
 <br>
 
